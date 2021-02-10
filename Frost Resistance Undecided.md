@@ -20,7 +20,7 @@ The miss chance is always flat 1%, but the probabilities of the partial resists 
 
 The average (average is important, because the mitigation is in fact a random variable) mitigation, depending on your frost resistance, can be written as follows:
 
-$ m\left(r\right) = 0.75 * \frac{r}{315} - \frac{3}{16} * \max\left(0, \frac{r}{315} - \frac{2}{3}\right) $
+<img src="https://render.githubusercontent.com/render/math?math=m\left(r\right) = 0.75 * \frac{r}{315} - \frac{3}{16} * \max\left(0, \frac{r}{315} - \frac{2}{3}\right)">
 
 where r is your corrent resistance.
 
@@ -58,7 +58,7 @@ However, even though you still have a linear increase in average mitigation with
 
 So how much value is one point of frost resistance? If floating point resistance values were a thing, we would calculate the derivative. But since we are only interested in the difference of mitigation if we increase frost resistance by one, we can just calculate the desired quantity as follows: 
 
-$\Delta m = m(r+1) - m(r)$
+<img src="https://render.githubusercontent.com/render/math?math=\Delta m = m(r+1) - m(r)">
 
 
 ```python
