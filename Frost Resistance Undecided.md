@@ -58,7 +58,7 @@ However, even though you still have a linear increase in average mitigation with
 
 So how much value is one point of frost resistance? If floating point resistance values were a thing, we would calculate the derivative. But since we are only interested in the difference of mitigation if we increase frost resistance by one, we can just calculate the desired quantity as follows: 
 
-<img src="https://render.githubusercontent.com/render/math?math=\Delta m = m(r + 1) - m(r)">
+<img src="https://render.githubusercontent.com/render/math?math=\Delta m = m(r \Plus 1) - m(r)">
 
 
 ```python
