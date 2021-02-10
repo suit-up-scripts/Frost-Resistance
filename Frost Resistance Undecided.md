@@ -20,7 +20,7 @@ The miss chance is always flat 1%, but the probabilities of the partial resists 
 
 The average (average is important, because the mitigation is in fact a random variable) mitigation, depending on your frost resistance, can be written as follows:
 
-$m\left(r\right) = 0.75 * \frac{r}{315} - \frac{3}{16} * \max\left(0, \frac{r}{315} - \frac{2}{3}\right)$
+$ m\left(r\right) = 0.75 * \frac{r}{315} - \frac{3}{16} * \max\left(0, \frac{r}{315} - \frac{2}{3}\right) $
 
 where r is your corrent resistance.
 
